@@ -2,7 +2,9 @@
 #include <iostream>
 
 int main() {
+
     Eigen::MatrixXd a(2,2), b(2,2);
+
     a << 1 , 2,
          3 , 4;
 
@@ -13,4 +15,5 @@ int main() {
 
     std::cout << opr1.multiply(a, b) << std::endl;
 
+return 0;
 }

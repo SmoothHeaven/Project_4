@@ -1,7 +1,7 @@
 #include "matrix_operation.hpp"
 
 
-MatrixOperations::MatrixOperations(/* args */) {
+MatrixOperations::MatrixOperations() {
 
 }
 
